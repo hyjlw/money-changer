@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: money-changer
+  main:
+    allow-bean-definition-overriding: true
+    banner-mode: "off"
+
+server:
+  servlet:
+    context-path: /money-changer
+  port: 8080
+  max-http-header-size: 4048576
