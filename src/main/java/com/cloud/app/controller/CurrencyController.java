@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/users")
 @Api(tags = {"Currency rest apis"}, value = "Currency module")
 public class CurrencyController
 {
